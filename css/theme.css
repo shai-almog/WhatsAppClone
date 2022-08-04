@@ -1,0 +1,216 @@
+#Constants {
+    includeNativeBool: true; 
+    scrollVisibleBool: false;
+}
+
+PopupDialog {
+    background-color: white;
+    border-radius: 1mm;
+    margin: 0px;
+    padding: 2mm;
+}
+
+Label {
+    padding: 2mm;
+    font-family: "native:MainLight";
+    font-size: 2.5mm;    
+}
+
+MultiLine1 {
+    font-family: "native:MainLight";
+    font-size: 3mm;    
+    padding-top: 1mm;
+    padding-bottom: 0px;
+    padding-left: 1mm;
+    padding-right: 1mm;
+}
+
+MultiLine2 {
+    font-family: "native:MainLight";
+    font-size: 2.6mm;    
+    padding-top: 1mm;
+    padding-bottom: 2mm;
+    padding-left: 1mm;
+    padding-right: 1mm;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0px;
+}
+
+MultiLine3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+MultiLine4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+MultiButton {
+    background-color: white;
+    border: none;    
+    margin: 0px;
+    cn1-background-type: none;
+    padding: 0px;
+}
+
+Toolbar {
+    border: none;
+    background-color: #075e55;
+    border-bottom: 1px solid #07544c;
+    padding: 0px;
+    margin: 0px;
+}
+
+Title {
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;    
+    padding: 2.5mm;
+}
+
+TitleCommand {
+    color: white;
+    font-family: "native:MainRegular";
+    font-size: 3mm;    
+    padding: 1mm;
+    margin: 0px;
+}
+
+SubTitle {
+    color: #82afaa;
+    font-family: "native:MainRegular";
+    font-size: 2.7mm;    
+    padding: 2mm;
+    margin: 0px;
+    text-align: center;
+}
+
+SubTitle.pressed {
+    color: white;
+}
+
+SubTitleUnderline {
+    background-color: white;
+    padding: 0.3mm;
+    border-bottom: 0.1mm solid #e5e5e5;
+}
+
+Form {
+    background-color: white;
+}
+
+ChatForm {
+    background-image: url(images/form-background.png);    
+    cn1-source-dpi: 0;    
+    padding: 0px;
+    margin: 0px;
+}
+
+FloatingActionButton {
+    background-color: #00887a;
+}
+
+TextField {
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin: 0.5mm;
+    font-family: "native:MainLight";
+    font-size: 2.5mm;    
+}
+
+TextFieldIcon {
+    background-color: white;
+    color: #868b91;
+    padding: 0px;
+    margin: 0.5mm;
+    border: none;
+}
+
+ChatTextField {
+    background-color: white;
+    border: cn1-pill-border;
+    padding: 1mm;
+    margin: 1.5mm;
+}
+
+RecordButton {
+    background-color: #00887a;
+    color: white;
+    border: cn1-round-border;
+    padding: 2mm;
+    margin: 1mm;
+}
+
+TextHint {
+    font-family: "native:MainLight";
+    font-size: 2.5mm;        
+    color: #cccccc;
+}
+
+ChatTime {
+    color: #999999;
+    font-family: "native:MainLight";
+    font-size: 2.2mm;
+    background-color: transparent;
+}
+
+ChatText {
+    color: black;
+    font-family: "native:MainLight";
+    font-size: 2.5mm;
+    background-color: transparent;
+}
+
+ChatBubbleLeft {
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+    margin-left: 2mm;
+    margin-right: 12mm;
+    padding-left: 3mm;
+    padding-right: 2mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    background-color: white;
+}
+
+ChatBubbleRight {
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+    margin-right: 2mm;
+    margin-left: 12mm;
+    padding-left: 2mm;
+    padding-right: 3mm;
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    background-color: #e2ffc7;
+}
+
+CommandList {
+    background-color: white;
+    border-radius: 1mm;
+    margin: 0px;
+    padding: 1.5mm;
+    box-shadow: 0px 0px 6pt 2pt rgba(0, 0, 0, 0.2);
+}
+
+Command {
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    padding-left: 2mm;
+    padding-right: 2mm;
+    margin: 0px;
+    font-family: "native:MainLight";
+    font-size: 2.5mm;    
+}
+
+Day {
+    background: #d4eaf5;
+    color: #525f67;
+    border-radius: 1mm;
+    margin: 1mm;
+    padding: 1mm;
+    font-family: "native:MainLight";
+    font-size: 2.2mm;    
+}
